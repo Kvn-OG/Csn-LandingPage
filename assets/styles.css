@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/dd04998dd59fa0c46c10b5b1c1b8e0d3?family=PirulenW05-Regular);
+
+:root {
+    --cor-primaria: #22B573;
+    --cor-secundaria: #34B67C;
+    --cor-terciaria: #EFEFEF;
+    --preto-primario: #111111;
+    --preto-secundario: #282828;
+    --cinza-cards: #808080;
+    --fonte-titulo: PirulenW05-Regular, sans-serif;
+    --fonte-textos: Montserrat, sans-serif;
+    --fonte-cards: Poppins, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
