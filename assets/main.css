@@ -84,7 +84,7 @@ main{
     color: var(--cor-primaria);
 }
 
-.robo-3d{
+.robo3d{
     position: absolute;
     top: 0;
     right: 0;
