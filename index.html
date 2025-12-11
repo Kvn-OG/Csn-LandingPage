@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/footer.css">
     <title>CSN Company</title>
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <img src="/assets/img/csn-logo.svg" alt="Logo CSN" class="logo-header">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#home"></a>HOME</li>
-                <li class="nav-item"><a href="#quem-somos"></a>QUEM SOMOS</li>
-                <li class="nav-item"><a href="#servicos"></a>SERVIÇOS</li>
-                <li class="nav-item"><a href="#nosso-time"></a>NOSSO TIME</li>
-            </ul>
-            <button type="submit"><a href="">Fale Conosco</a></button>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <img src="/assets/img/csn-logo.svg" alt="Logo CSN" class="logo">
+
+            <nav>
+                <a href="#home">HOME</a>
+                <a href="#quem-somos">QUEM SOMOS</a>
+                <a href="#servicos">SERVIÇOS</a>
+                <a href="#nosso-time">NOSSO TIME</a>
+            </nav>
+
+            <button class="btn-contato">Fale Conosco</button>
+        </header>
+    </div>
     <main>
-        <section>
-            <div>
-                <h1>Prepare-se para transformar<br>a comunicação da sua empresa</h1>
-                <p>Deixe a complexidade da gestão de tráfego e redes sociais com a gente.<br>Foque no que você sabe fazer de melhor: atender seus clientes.</p>
-                <button type="submit"><a href="">> Contrate a CSN</a></button>
+        <section id="home">
+            <div class="conteudo">
+                <div class="tag-box">
+                    <div class="tag">CHEGOU A HORA</div>
+                </div>
+
+                <h1 class="hero">Prepare-se para transformar  a comunicação da sua empresa</h1>
+                
+                <p class="descricao">
+                    Deixe a complexidade da gestão de tráfego e redes sociais com a gente.<br>
+                    Foque no que você sabe fazer de melhor: atender seus clientes.
+                </p>
+
+                <div class="btns">
+                    <a href="#" class="btn-contrate">&gt; Contrate a CSN</a>
+                </div>
             </div>
+            <spline-viewer class="robo-3d" url="https://prod.spline.design/oHmsf41Z4uFmwJSW/scene.splinecode"></spline-viewer>
         </section>
     </main>
-</body>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.13/build/spline-viewer.js"></script>
+</body>    
 </html>
