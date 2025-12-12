@@ -2,7 +2,15 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: calc(90vh - 6rem);
+}
+
+#home{
+    display: flex;
+    margin-top: 8%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+    padding-bottom: 2rem;
 }
 
 .hero{
@@ -84,11 +92,26 @@ main{
     color: var(--cor-primaria);
 }
 
-.robo3d{
+.robo3d {
     position: absolute;
-    top: 0;
-    right: 0;
-    transform: translateX(30%);
+    right: -19rem;
+    bottom: -1rem;
+    width: 80rem; /* AGORA fica proporcional mesmo */
+    height: auto;
     pointer-events: none;
-    z-index: 1;
+    z-index: 10;
 }
+
+#quem-somos{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-terciaria);
+    padding: 5rem 0;
+}
+
+#quem-somos img{
+    width: 40rem;
+}
+
